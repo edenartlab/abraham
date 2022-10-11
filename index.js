@@ -121,8 +121,8 @@ async function main() {
   // choose random width, height
   let options = [[512, 512], [640, 640], [512, 832], [832, 512]];
   let choice = options[Math.floor(Math.random() * options.length)];
-  let {W, H} = {W: choice[0], H: choice[1]};
-  
+  let {width, height} = {width: choice[0], height: choice[1]};
+  console.log(width, height);
   // send request to eden
   let config = {
     "mode": "generate", 
@@ -130,8 +130,8 @@ async function main() {
     "sampler": "euler_ancestral",
     "scale": 10.0,
     "steps": 50, 
-    "W": W,
-    "H": H,
+    "width": width,
+    "height": height,
     "seed": Math.floor(1e8 * Math.random())
   }
 
