@@ -43,6 +43,13 @@ Modifiers: album cover, mix of afrofuturism and sōsaku hanga, detailed pencil s
 `;
 
 
+
+// get_creations endpoint
+// sum embeddings
+// 
+
+
+
 async function createPrompt() {
   
   const configuration = new Configuration({
