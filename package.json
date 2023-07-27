@@ -1,6 +1,6 @@
 {
-  "name": "eden-app",
-  "version": "0.2.0",
+  "name": "eden-abraham",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,18 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@edenlabs/eden-sdk": "^0.1.0",
     "@rainbow-me/rainbowkit": "^0.8.1",
     "@types/form-data": "^2.5.0",
     "@types/node-fetch": "^2.6.3",
     "antd": "^5.0.7",
     "axios": "^1.2.1",
     "dotenv": "^16.0.3",
-    "eden-sdk": "^0.2.39",
-    "ethereumjs-abi": "https://registry.npmjs.org/ethereumjs-abi/-/ethereumjs-abi-0.6.8.tgz",
     "ethers": "^5.7.2",
     "form-data": "^4.0.0",
     "iron-session": "^6.3.1",
-    "merkletreejs": "^0.3.9",
     "next": "13.0.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
