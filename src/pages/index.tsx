@@ -39,7 +39,7 @@ function Abraham() {
             Abraham is an open project to create an <a href="https://medium.com/@genekogan/artist-in-the-cloud-8384824a75c7">autonomous artificial artist</a>
           </p>
           <p>
-            <a href="https://app.eden.art/creators/abraham">See what Abraham is creating right now.</a>
+            <a href="https://app.eden.art/characters/657926f90a0f725740a93b77">See what Abraham is creating right now.</a>
           </p>
         </div>
 
